@@ -7,8 +7,9 @@ public class GoogleSteps {
 
     GooglePage googlePage;
     @Step
-    public void launchGoogleApp(){
-
+    public void launchGoogleApp()
+    {
+        googlePage.open();
     }
     @Step
     public void searchItem(String input){
